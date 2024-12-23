@@ -20,7 +20,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3001', 'https://merabestie.com', 'https://hosteecommerce.vercel.app'],
+  origin: ['http://localhost:3000','https://ecommercebackend-topaz.vercel.app', 'http://localhost:3001', 'https://merabestie.com', 'https://hosteecommerce.vercel.app'],
   credentials: true, // Allow credentials (cookies, HTTP authentication, etc.)
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Allowed HTTP methods
   allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'], // Allowed headers
