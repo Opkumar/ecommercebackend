@@ -2,18 +2,15 @@
     "version": 2,
     "builds": [
       {
-        "src": "MultipleFiles/index.js",
+        "src": "index.js",
         "use": "@vercel/node"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "MultipleFiles/index.js"
+        "dest": "/"
       }
-    ],
-    "env": {
-      "NODE_ENV": "production"
-    }
+    ]
    
   }
